@@ -1,0 +1,62 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.frame-1 {
+  background-color: var(--east-side);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 307px;
+  position: relative;
+  width: 549px;
+}
+.frame-1 .address {
+  left: 12px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 17px;
+  width: 234px;
+}
+.frame-1 .overlap-group {
+  background-color: var(--purple-mountains-majesty);
+  height: 185px;
+  left: 1px;
+  position: absolute;
+  top: 61px;
+  width: 547px;
+}
+.frame-1 .smart-select20-4840-gallery-1 {
+  height: 185px;
+  left: 362px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 185px;
+}
+.frame-1 .title {
+  left: 12px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 6px;
+  width: 246px;
+}
+.roboto-regular-normal-black-18px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-36px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --east-side: rgba(182, 147, 210, 1);
+  --purple-mountains-majesty: rgba(153, 119, 178, 1);
+}
